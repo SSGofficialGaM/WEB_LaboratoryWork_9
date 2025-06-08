@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Екологічний туризм в Україні</title>
+
+  <style>
+    body { 
+      margin: 0; 
+      font-family: 'Roboto', sans-serif; 
+      background: #f9f9f9; 
+    }
+    header { 
+      background-color: #2e7d32; 
+      color: white; 
+      padding: 1rem; 
+      text-align: center; 
+    }
+    nav { 
+      display: flex; 
+      justify-content: center; 
+      gap: 1rem; 
+      flex-wrap: wrap; 
+    }
+    nav a { 
+      color: white; 
+      text-decoration: none; 
+      font-weight: bold; 
+    }
+    .hero { 
+      padding: 2rem; 
+      text-align: center; 
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"></noscript>
+
+  <link rel="preload" href="styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="styles.min.css"></noscript>
+
+  <script src="main.min.js" async defer></script>
+</head>
+<body>
+  <header>
+    <h1>Екологічний туризм в Україні</h1>
+    <nav>
+      <a href="#about">Про нас</a>
+      <a href="#routes">Маршрути</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#contacts">Контакти</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Відкрийте природу заново</h2>
+    <p>Подорожуйте з любов’ю до природи</p>
+    <img data-src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-vector-picture-icon-png-image_695350.jpg" src="https://bukowina.org.ua/wp-content/uploads/2025/02/91951591.jpg" loading="lazy" alt="Гори Карпати" width="100%" />
+  </section>
+
+  <section id="lazyContent">
+    <!-- Контент буде підвантажено JavaScript'ом -->
+  </section>
+
+  <script src="lazy-load.min.js" async defer></script>
+  <noscript>
+    <p>Для повного функціоналу сайту увімкніть JavaScript</p>
+  </noscript>
+</body>
+</html>
